@@ -37,8 +37,10 @@ class App extends React.Component{
             let secSunrise = dateSunrise.getSeconds();
             let sunrise_date = hoursSunrise + ":" + minSunrice + ":" + secSunrise;
 
+            let tempCel = Math.round(data.main.temp + (-273));
+            
             this.setState({
-                temp: data.main.temp,
+                temp: tempCel,
                 city: data.name,
                 country: data.sys.country,
                 sunrise: sunrise_date,

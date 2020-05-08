@@ -25,7 +25,7 @@ const Weather = props =>(
     {props.city &&
         <div className="infoWeath">
             <p>Location: {props.city}, {props.country}</p>
-            <p>Temp: {props.temp}</p>
+            <p>Temp: {props.temp} &#176;C</p>
             <p>Sunrise: {props.sunrise}</p>
             <p>Sunset: {props.sunset}</p>
         </div>
