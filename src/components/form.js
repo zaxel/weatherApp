@@ -15,7 +15,7 @@ import React from "react";
 /*short verssion */
 const Form = props =>(
     <form onSubmit={props.weatherMethod}>
-        <input type="text" name="city" placeholder="City" />
+        <input type="text" name="city" placeholder="Enter Your City" />
         <button>Get the weather</button>
     </form>
 )
