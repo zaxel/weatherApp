@@ -24,6 +24,18 @@ class App extends React.Component{
         if(city){
             const api_url = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`);
             const data = await api_url.json();
+            
+            if(data.cod === '404'){
+                this.setState({
+                    temp: undefined,
+                    city: undefined,
+                    country: undefined,
+                    sunrise: undefined,
+                    sunset: undefined,
+                    error: "Please check city spelling"
+                });
+                return;
+            }
             // console.log(data);
             let sunset = data.sys.sunset;
             let date = new Date(sunset*1000);
