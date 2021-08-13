@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/weatherApp/static/css/main.1cba3180.chunk.css",
+    "main.js": "/weatherApp/static/js/main.5af297ad.chunk.js",
+    "main.js.map": "/weatherApp/static/js/main.5af297ad.chunk.js.map",
+    "runtime-main.js": "/weatherApp/static/js/runtime-main.427b276c.js",
+    "runtime-main.js.map": "/weatherApp/static/js/runtime-main.427b276c.js.map",
+    "static/css/2.818011ed.chunk.css": "/weatherApp/static/css/2.818011ed.chunk.css",
+    "static/js/2.d165a127.chunk.js": "/weatherApp/static/js/2.d165a127.chunk.js",
+    "static/js/2.d165a127.chunk.js.map": "/weatherApp/static/js/2.d165a127.chunk.js.map",
+    "index.html": "/weatherApp/index.html",
+    "static/css/2.818011ed.chunk.css.map": "/weatherApp/static/css/2.818011ed.chunk.css.map",
+    "static/css/main.1cba3180.chunk.css.map": "/weatherApp/static/css/main.1cba3180.chunk.css.map",
+    "static/js/2.d165a127.chunk.js.LICENSE.txt": "/weatherApp/static/js/2.d165a127.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/weatherApp/static/media/poligone.69ac72c7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.427b276c.js",
+    "static/css/2.818011ed.chunk.css",
+    "static/js/2.d165a127.chunk.js",
+    "static/css/main.1cba3180.chunk.css",
+    "static/js/main.5af297ad.chunk.js"
+  ]
+}
